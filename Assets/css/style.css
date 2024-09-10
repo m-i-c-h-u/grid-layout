@@ -1,0 +1,145 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 20% 80%; 
+    grid-template-rows: auto auto auto;
+    background-color: #2196F3;
+}
+
+article {
+    text-align: center;
+}
+
+.grid-item1 {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 1;
+    background-color: rgb(253, 80, 132);
+}
+
+.grid-item2 {
+    grid-column-start: 1;
+    grid-column-end: 1;
+    grid-row-start: 2;
+    grid-row-end: 2;
+    background-color: rgb(175, 248, 236);
+}
+
+.categorias {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    padding: 10px;
+    font-size: large;
+}
+
+dt {
+    display: flex;
+    margin: 10px;
+    align-items: start;
+    font-size: large;
+    font-weight: bold;
+}
+
+span {
+    color: rgba(253, 80, 132, 0.5);
+}
+
+.grid-item3 {       
+    grid-column-start: 2;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 2;
+    background-color: rgb(236, 225, 225);
+    padding: 10px;
+    margin: 0%;
+}
+
+.items {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto;
+}
+
+.prod1 {
+    grid-column-start: 1;
+    grid-column-end: 1;
+    grid-row-start: 1;
+    grid-row-end: 1;
+    margin: 10%;
+}
+
+.prod2 {
+    grid-column-start: 2;
+    grid-column-end: 2;
+    grid-row-start: 1;  
+    grid-row-end: 1;
+    margin: 10%;
+}   
+
+.prod3 {    
+    grid-column-start: 3;       
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 1;
+    margin: 10%;
+}
+
+.prod4 {
+    grid-column-start: 1;
+    grid-column-end: 1;
+    grid-row-start: 2;
+    grid-row-end: 2;
+    margin: 10%;
+}
+
+.productos { 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(250, 158, 186);
+}
+
+img {
+    width: 100%;
+    height: 100%;
+    
+}
+
+h2, p {
+    margin: 10px;
+}
+
+.boton {
+    width: 100%;
+    background-color: rgb(253, 80, 132);
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    font-size: medium;
+    margin: 0;
+    cursor: pointer;
+}
+
+.boton:hover {
+    background-color: rgb(175, 248, 236);
+    color: rgb(69, 64, 82);
+}
+
+.grid-item4 {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 4;
+    grid-row-end: 4;
+    align-content: end;
+    background-color: rgb(253, 80, 132);
+    padding: 10px;
+}
